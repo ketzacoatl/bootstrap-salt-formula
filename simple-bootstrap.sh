@@ -17,7 +17,7 @@ apt-get install -y git
 
 ###########
 # Step 2: install the bootstrap formula
-wget -O - https://raw.githubusercontent.com/fpco/bootstrap-salt-formula/master/install.sh | sh
+wget -O - https://raw.githubusercontent.com/ketzacoatl/bootstrap-salt-formula/master/install.sh | sh
 
 ###########
 # Step 3: configure the bootstrap formula
