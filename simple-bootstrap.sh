@@ -8,7 +8,7 @@ SALT_VERSION=${SALT_VERSION:-3006}
 
 ##########
 # Step 1: Install Saltstack and git
-wget -O - https://bootstrap.saltproject.io | sh -s -- stable ${SALT_VERSION}
+wget -O - https://raw.githubusercontent.com/saltstack/salt-bootstrap/0899e72c34958da284c29fd71eeddb52cc5abe9f/bootstrap-salt.sh | sh -s -- stable ${SALT_VERSION}
 # disable the service until configured
 service salt-minion stop
 # the bootstrap formula might need git installed..
