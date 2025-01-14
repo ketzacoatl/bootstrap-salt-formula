@@ -2,7 +2,7 @@
 
 set -eux
 
-URL=${BOOTSTRAP_URL:=https://raw.githubusercontent.com/fpco/bootstrap-salt-formula}
+URL=${BOOTSTRAP_URL:=https://raw.githubusercontent.com/ketzacoatl/bootstrap-salt-formula}
 BRANCH=${BOOTSTRAP_BRANCH:=master}
 TMP_DIR=${BOOTSTRAP_TMP_DIR:=/tmp/bootstrap}
 LOG_LEVEL=${BOOTSTRAP_LOG_LEVEL:=info}
